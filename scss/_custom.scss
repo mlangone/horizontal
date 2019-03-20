@@ -26,11 +26,11 @@ $hero-height: 272px;
   background: url('/images/sweet-ice-cream-photography-110980-unsplash.jpg') 50% no-repeat;
   background-size: cover;
 }
+
 header.header {
   @include breakpoint(medium down){
     padding: 1rem;
   }
-
 }
 
 footer.footer{
