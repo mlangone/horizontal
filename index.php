@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="js/owlcarousel/assets/owl.theme.default.min.css">
   </head>
   <body>
-    <?php include ('includes/header.php') ;?>
+
+   <?php include ('includes/header.php') ;?>
 
     <div class="hero-section-home">
         <div class="hero-section-text">
@@ -34,6 +35,7 @@
         </div>
       </div>
     </div>
+
     <section class="gray-bg">
         <div class="grid-container">
             <div class="grid-x grid-padding-x align-center">
@@ -135,6 +137,7 @@
             </div>
         </div>
     </div>
+
     <section class="gray-bg form-area">
     <div class="grid-container">
         <div class="grid-x grid-margin-x grid-padding-x align-center">
@@ -185,8 +188,7 @@
     </div>
 </section>
 
-
-  <?php include ('includes/footer.php') ;?>
+    <?php include ('includes/footer.php') ;?>
 
     <script src="js/jquery.js"></script>
     <script src="js/what-input.js"></script>
@@ -194,5 +196,6 @@
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/custom.js"></script>
+
   </body>
 </html>

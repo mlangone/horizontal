@@ -17,52 +17,16 @@ jQuery(document).ready(function() {
 
 
     jQuery('.owl-carousel').owlCarousel({
-        // center: true,
-        // items:2,
-        // loop:true,
-        // margin:20,
-        // responsive:{
-        //     768:{
-        //         items:4
-        //     }
-        // }
-        stagePadding: 200,
+        center: true,
+        items:2,
         loop:true,
         margin:20,
-        nav:false,
-        items:1,
-        nav:true,
         responsive:{
-            0:{
-                items:1,
-                stagePadding: 40
-            },
-            600:{
-                items:1,
-                stagePadding: 100
-            },
-            1000:{
-                items:1,
-                stagePadding: 200
-            },
-            1200:{
-                items:1,
-                stagePadding: 250
-            },
-            1400:{
-                items:1,
-                stagePadding: 300
-            },
-            1600:{
-                items:1,
-                stagePadding: 350
-            },
-            1800:{
-                items:1,
-                stagePadding: 400
+            768:{
+                items:4,
+                nav:true
             }
         }
-    })
     })
 
 });

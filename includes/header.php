@@ -1,6 +1,6 @@
 <header class="header">
 	<div class="grid-container">
-		<div class="grid-x grid-padding-x">
+		<div class="grid-x grid-padding-x align-center-middle">
 			<div class="cell small-12">
 				<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 					<button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -31,12 +31,7 @@
 							<li><a href="#0">Three</a></li>
 						</ul>
 					</div>
-					<div class="top-bar-right">
-						<ul class="menu">
-							<li><input type="search" placeholder="Search"></li>
-							<li><button type="button" class="button">Search</button></li>
-						</ul>
-					</div>
+
 				</div>
 
 			</div>
