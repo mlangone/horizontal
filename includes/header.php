@@ -25,7 +25,7 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Industries</a></li>
                         <li><a href="#">Buildings</a></li>
-                        <li><a href="#">Salt Storage</a></li>
+                        <li><a href="/salt.php">Salt Storage</a></li>
                         <li><a href="#">News</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
