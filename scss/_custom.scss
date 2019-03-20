@@ -26,7 +26,12 @@ $hero-height: 272px;
   background: url('/images/sweet-ice-cream-photography-110980-unsplash.jpg') 50% no-repeat;
   background-size: cover;
 }
+header.header {
+  @include breakpoint(medium down){
+    padding: 1rem;
+  }
 
+}
 
 footer.footer{
   background: $black;
@@ -171,4 +176,29 @@ li.line-border{
     float: left;
   }
 }
-
+.menu-icon {
+  margin-right: 1rem;
+}
+.menu-icon::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  -webkit-box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+  box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+  content: '';
+}
+.menu-icon:hover::after {
+  background: $black;
+  -webkit-box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+  box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+}
+title-bar-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  padding-right: 1rem;
+}

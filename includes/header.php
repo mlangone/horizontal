@@ -1,14 +1,40 @@
 <header class="header">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x align-center-middle">
-			<div class="cell small-12">
-				<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-					<button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-					<div class="title-bar-title">Menu</div>
-				</div>
-			</div>
-			<div class="cell small-12">
-				<div class="top-bar" id="responsive-menu">
+            <div class="cell small-8 hide-for-medium">
+                <div class="mobile-site-logo">
+                    <a href="/">
+                        <picture>
+                            <source type="image/svg+xml" srcset="images/main-logo.svg">
+                            <source srcset="images/main-logo.webp" type="image/webp">
+                            <source srcset="images/main-logo.png" type="image/png">
+                            <img src="images/main-logo.png" alt="Britespan buildings from horizontal buildings">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="cell small-4 text-right">
+                <div class="title-bar float-right" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                    <div class="title-bar-title">Menu</div>
+                    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+                </div>
+            </div>
+            <div class="cell small-12 hide-for-medium">
+                <div id="responsive-menu">
+                    <ul class="menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Buildings</a></li>
+                        <li><a href="#">Salt Storage</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+			<div class="cell small-12 show-for-medium">
+				<div class="top-bar">
                     <div class="top-bar-left">
                         <div class="site-logo">
                             <a href="/">
@@ -83,14 +109,8 @@
 					</div>
 
 				</div>
-
 			</div>
 
 		</div>
 	</div>
 </header>
-
-
-
-
-

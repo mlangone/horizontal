@@ -820,11 +820,12 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
+
 // 53. Title Bar
 // -------------
 
-$titlebar-background: $black;
-$titlebar-color: $white;
+$titlebar-background: $white;
+$titlebar-color: $black;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
 $titlebar-icon-color: $white;
@@ -833,6 +834,7 @@ $titlebar-icon-spacing: 0.25rem;
 
 // 54. Tooltip
 // -----------
+
 
 $has-tip-cursor: help;
 $has-tip-font-weight: $global-weight-bold;
@@ -848,6 +850,7 @@ $tooltip-radius: $global-radius;
 
 // 55. Top Bar
 // -----------
+
 
 $topbar-padding: 1.75rem 0.5rem;
 $topbar-background: $white;

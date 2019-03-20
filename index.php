@@ -11,7 +11,6 @@
   </head>
   <body>
 
-
     <?php include ('includes/header.php') ;?>
 
     <div class="hero-section-home">
@@ -111,7 +110,6 @@
             </div>
         </div>
     </section>
-
     <div class="grid-container">
         <div class="grid-x grid-padding-x align-center">
             <div class="small-12 medium-8 cell page-content-50">
@@ -140,8 +138,10 @@
         </div>
     </div>
 
+
     <section class="gray-bg form-area">
-    <div class="grid-container">
+
+        <div class="grid-container">
         <div class="grid-x grid-margin-x grid-padding-x align-center">
             <div class="medium-8 cell page-content-50">
                 <h3 class="content-title text-center"><span class="text-normal">Request</span> More Information</h3>
