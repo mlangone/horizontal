@@ -3,7 +3,7 @@
 		<div class="grid-x grid-padding-x align-center-middle">
             <div class="cell small-8 hide-for-medium">
                 <div class="mobile-site-logo">
-                    <a href="/">
+                    <a href="/index.php">
                         <picture>
                             <source type="image/svg+xml" srcset="images/main-logo.svg">
                             <source srcset="images/main-logo.webp" type="image/webp">
@@ -37,7 +37,7 @@
 				<div class="top-bar">
                     <div class="top-bar-left">
                         <div class="site-logo">
-                            <a href="/">
+                            <a href="/index.php">
                                 <picture>
                                     <source type="image/svg+xml" srcset="images/main-logo.svg">
                                     <source srcset="images/main-logo.webp" type="image/webp">
