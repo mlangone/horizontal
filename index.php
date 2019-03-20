@@ -11,7 +11,8 @@
   </head>
   <body>
 
-   <?php include ('includes/header.php') ;?>
+
+    <?php include ('includes/header.php') ;?>
 
     <div class="hero-section-home">
         <div class="hero-section-text">
@@ -179,7 +180,7 @@
                             <input type="text" placeholder="large-4.cell" />
                         </div>
                         <div class="medium-6 cell text-left">
-                            <input type="submit" class="button large" value="Request More Information">
+                            <input type="submit" class="button large large-round" value="Request More Information">
                         </div>
 
                     </div>
@@ -197,6 +198,8 @@
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/custom.js"></script>
+
+
 
   </body>
 </html>

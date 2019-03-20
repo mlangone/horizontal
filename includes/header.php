@@ -9,26 +9,76 @@
 			</div>
 			<div class="cell small-12">
 				<div class="top-bar" id="responsive-menu">
-					<div class="top-bar-left">
+                    <div class="top-bar-left">
+                        <div class="site-logo">
+                            <a href="/">
+                                <picture>
+                                    <source type="image/svg+xml" srcset="images/main-logo.svg">
+                                    <source srcset="images/main-logo.webp" type="image/webp">
+                                    <source srcset="images/main-logo.png" type="image/png">
+                                    <img src="images/main-logo.png" alt="Britespan buildings from horizontal buildings">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+					<div class="top-bar-right">
+                        <div class="contact-cta-top cell align-self-middle text-right">
+                            <div class="phone">
+                                <span class="phone-info">
+                                    Contact us: <a class="phonestrong" href="tel:8882315478">1 (888) 231-5476</a>
+                                </span>
+                                <a href="#" class="button default large-round">Get a Quote</a>
+
+                            </div>
+                        </div>
 						<ul class="dropdown menu" data-dropdown-menu>
-							<li class="menu-text">
-								<picture>
-									<source type="image/svg+xml" srcset="images/main-logo.svg">
-									<source srcset="images/main-logo.webp" type="image/webp">
-									<source srcset="images/main-logo.png" type="image/png">
-									<img src="images/main-logo.png" alt="Britespan buildings from horizontal buildings">
-								</picture>
-							</li>
-							<li class="has-submenu">
-								<a href="#0">One</a>
-								<ul class="submenu menu vertical" data-submenu>
-									<li><a href="#0">One</a></li>
-									<li><a href="#0">Two</a></li>
-									<li><a href="#0">Three</a></li>
-								</ul>
-							</li>
-							<li><a href="#0">Two</a></li>
-							<li><a href="#0">Three</a></li>
+                            <li><a href="#0">About Us</a></li>
+                            <li class="mega-menu">
+                                <a data-toggle="mega-menu" href="#">Industries</a>
+
+                                <div class="dropdown-pane bottom" id="mega-menu" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true; vOffset:11">
+
+                                    <div class="grid-x">
+                                        <div class="cell small-4">
+                                            <ul class="menu vertical">
+                                                <li class="title">Agriculture</li>
+                                                <li class="line-border"><hr></li>
+                                                <li><a href="#">Beef</a></li>
+                                                <li><a href="#">Dairy</a></li>
+                                                <li><a href="#">Equine</a></li>
+                                                <li><a href="#">Goat & Sheep</a></li>
+                                                <li><a href="#">Hay & Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cell small-4">
+                                            <ul class="menu vertical">
+                                                <li class="title">Commercial</li>
+                                                <li class="line-border"><hr></li>
+                                                <li><a href="#">Aviation</a></li>
+                                                <li><a href="#">Commercial Commodity</a></li>
+                                                <li><a href="#">Events & Hospitality</a></li>
+                                                <li><a href="#">Military</a></li>
+                                                <li><a href="#">Exploration & Energy</a></li>
+                                                <li><a href="#">Sports & Recreation</a></li>
+                                                <li><a href="#">Warehousing & Equipment</a></li>
+                                                <li><a href="#">Watercraft & Ports</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cell small-4">
+                                            <ul class="menu vertical">
+                                                <li class="title">Public Works</li>
+                                                <li class="line-border"><hr></li>
+                                                <li><a href="/salt.php">Salt & Sand</a></li>
+                                                <li><a href="#">Waste & Recycling</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+							<li><a href="#0">Buildings</a></li>
+							<li><a href="#0">News</a></li>
+                            <li><a href="#0">Contact</a></li>
 						</ul>
 					</div>
 
@@ -39,3 +89,8 @@
 		</div>
 	</div>
 </header>
+
+
+
+
+
