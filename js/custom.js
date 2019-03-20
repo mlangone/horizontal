@@ -17,10 +17,11 @@ jQuery(document).ready(function() {
 
 
     jQuery('.owl-carousel').owlCarousel({
-        center: true,
+        stagePadding: 50,
         items:2,
         loop:true,
         margin:20,
+        navigation: true,
         responsive:{
             768:{
                 items:4,
