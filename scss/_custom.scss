@@ -30,7 +30,9 @@ footer.footer{
     height: 76px;
   }
 }
-
+span.text-normal {
+  font-weight: 400;
+}
 .page-content-80{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -63,4 +65,37 @@ h2.section-title{
 p.blue {
   color: $blue;
   font-weight: bold;
+}
+
+
+section.gray-bg{
+  background: $medium-gray;
+  position: relative;
+  width: 100%;
+}
+.title.text-center {
+  background: $light-gray;
+  padding: 10px;
+  p.slider-title {
+    margin-bottom: 0;
+  }
+}
+
+.yellow-bg{
+  background: $light-yellow;
+  padding: 1em;
+  p.smaller{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+}
+
+.disclaim{
+  padding: 1rem;
+  span.disclaimer-text{
+    font-size: 10px;
+    line-height: 14px;
+    color: #666666;
+  }
 }
