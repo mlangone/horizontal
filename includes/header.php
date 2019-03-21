@@ -25,7 +25,7 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Industries</a></li>
                         <li><a href="#">Buildings</a></li>
-                        <li><a href="/salt-storage-buildings.php">Salt Storage</a></li>
+                        <li><a href="/salt-storage-buildings">Salt Storage</a></li>
                         <li><a href="#">News</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -37,7 +37,7 @@
 				<div class="top-bar">
                     <div class="top-bar-left">
                         <div class="site-logo">
-                            <a href="/index.php">
+                            <a href="/">
                                 <picture>
                                     <source type="image/svg+xml" srcset="images/main-logo.svg">
                                     <source srcset="images/main-logo.webp" type="image/webp">
@@ -94,7 +94,7 @@
                                             <ul class="menu vertical">
                                                 <li class="title">Public Works</li>
                                                 <li class="line-border"><hr></li>
-                                                <li><a href="/salt-storage-buildings.php">Salt & Sand</a></li>
+                                                <li><a href="/salt-storage-buildings">Salt & Sand</a></li>
                                                 <li><a href="#">Waste & Recycling</a></li>
                                             </ul>
                                         </div>
